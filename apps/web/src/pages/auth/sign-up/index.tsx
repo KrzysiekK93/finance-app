@@ -29,9 +29,8 @@ export default function SignUp() {
   });
 
   const mutation = api.auth.signUp.useMutation();
-  console.log("### mutation", mutation);
+
   const onSubmit: SubmitHandler<Inputs> = (data) => {
-    console.log("### data", data);
     mutation.mutate(data);
   };
 

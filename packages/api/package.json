@@ -1,6 +1,6 @@
 {
   "name": "@finance-app/api",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "main": "./index.ts",
   "types": "./index.ts",
   "license": "MIT",
@@ -11,15 +11,15 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@finance-app/auth": "^0.1.0",
-    "@finance-app/db": "^0.1.0",
+    "@finance-app/auth": "workspace:*",
+    "@finance-app/db": "workspace:*",
     "@trpc/client": "^10.27.1",
     "@trpc/server": "^10.27.1",
     "superjson": "1.9.1",
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "@finance-app/eslint-config": "^0.1.0",
+    "@finance-app/eslint-config": "workspace:*",
     "eslint": "^8.40.0",
     "typescript": "^5.0.4"
   }

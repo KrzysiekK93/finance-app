@@ -5,7 +5,7 @@ importers:
   .:
     dependencies:
       '@finance-app/eslint-config':
-        specifier: ^0.1.0
+        specifier: workspace:*
         version: link:packages/config/eslint
       '@ianvs/prettier-plugin-sort-imports':
         specifier: ^3.7.2
@@ -35,13 +35,13 @@ importers:
   apps/web:
     dependencies:
       '@finance-app/api':
-        specifier: ^0.1.0
+        specifier: workspace:*
         version: link:../../packages/api
       '@finance-app/auth':
-        specifier: ^0.1.0
+        specifier: workspace:*
         version: link:../../packages/auth
       '@finance-app/db':
-        specifier: ^0.1.0
+        specifier: workspace:*
         version: link:../../packages/db
       '@hookform/resolvers':
         specifier: ^3.1.0
@@ -93,10 +93,10 @@ importers:
         version: 3.21.4
     devDependencies:
       '@finance-app/eslint-config':
-        specifier: ^0.1.0
+        specifier: workspace:*
         version: link:../../packages/config/eslint
       '@finance-app/tailwind-config':
-        specifier: ^0.1.0
+        specifier: workspace:*
         version: link:../../packages/config/tailwind
       '@types/bcryptjs':
         specifier: ^2.4.2
@@ -132,10 +132,10 @@ importers:
   packages/api:
     dependencies:
       '@finance-app/auth':
-        specifier: ^0.1.0
+        specifier: workspace:*
         version: link:../auth
       '@finance-app/db':
-        specifier: ^0.1.0
+        specifier: workspace:*
         version: link:../db
       '@trpc/client':
         specifier: ^10.27.1
@@ -151,7 +151,7 @@ importers:
         version: 3.21.4
     devDependencies:
       '@finance-app/eslint-config':
-        specifier: ^0.1.0
+        specifier: workspace:*
         version: link:../config/eslint
       eslint:
         specifier: ^8.40.0
@@ -163,7 +163,7 @@ importers:
   packages/auth:
     dependencies:
       '@finance-app/db':
-        specifier: ^0.1.0
+        specifier: workspace:*
         version: link:../db
       '@next-auth/prisma-adapter':
         specifier: ^1.0.6
@@ -188,7 +188,7 @@ importers:
         version: 3.21.4
     devDependencies:
       '@finance-app/eslint-config':
-        specifier: ^0.1.0
+        specifier: workspace:*
         version: link:../config/eslint
       eslint:
         specifier: ^8.40.0

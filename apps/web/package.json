@@ -1,6 +1,6 @@
 {
   "name": "@finance-app/web",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "pnpm with-env next build",
@@ -13,9 +13,9 @@
     "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
-    "@finance-app/api": "^0.1.0",
-    "@finance-app/auth": "^0.1.0",
-    "@finance-app/db": "^0.1.0",
+    "@finance-app/api": "workspace:*",
+    "@finance-app/auth": "workspace:*",
+    "@finance-app/db": "workspace:*",
     "@hookform/resolvers": "^3.1.0",
     "@t3-oss/env-nextjs": "^0.3.1",
     "@tanstack/react-query": "^4.29.5",
@@ -34,8 +34,8 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "@finance-app/eslint-config": "^0.1.0",
-    "@finance-app/tailwind-config": "^0.1.0",
+    "@finance-app/eslint-config": "workspace:*",
+    "@finance-app/tailwind-config": "workspace:*",
     "@types/bcryptjs": "^2.4.2",
     "@types/node": "^18.16.5",
     "@types/react": "^18.2.6",
