@@ -5,6 +5,7 @@
 ## Installation
 
 There are two ways of initializing an app using `create-t3-turbo` starter. You can either use this repository as a template or use Turbo's CLI to init your project:
+
 ```bash
 npx create-turbo@latest -e https://github.com/t3-oss/create-t3-turbo
 ```
@@ -42,7 +43,7 @@ packages
      └─ typesafe db-calls using Prisma
 ```
 
-> In this template, we use `@acme` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@acme/` to something like `@my-company/` / `@project-name/`.
+> In this template, we use `@finance-app` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@finance-app/` to something like `@my-company/` / `@project-name/`.
 
 ## FAQ
 
@@ -129,7 +130,7 @@ _We do not recommend deploying a SQLite database on serverless environments sinc
 
 Let's deploy the Next.js application to [Vercel](https://vercel.com/). If you have ever deployed a Turborepo app there, the steps are quite straightforward. You can also read the [official Turborepo guide](https://vercel.com/docs/concepts/monorepos/turborepo) on deploying to Vercel.
 
-1. Create a new project on Vercel, select the `apps/nextjs` folder as the root directory and apply the following build settings:
+1. Create a new project on Vercel, select the `apps/web` folder as the root directory and apply the following build settings:
 
 <img width="927" alt="Vercel deployment settings" src="https://user-images.githubusercontent.com/11340449/201974887-b6403a32-5570-4ce6-b146-c486c0dbd244.png">
 
